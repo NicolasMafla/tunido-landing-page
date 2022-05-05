@@ -1,0 +1,12 @@
+#mainNav {
+    background-color: #FFFFFF;
+}
+
+#searching-home {
+    height: 25rem;
+}
+
+#how-works {
+    background: rgb(245, 37, 100);
+    background: linear-gradient(45deg, rgba(245, 37, 100, 1) 0%, rgba(5, 59, 192, 1) 50%, rgba(229, 38, 106, 1) 100%);
+}
