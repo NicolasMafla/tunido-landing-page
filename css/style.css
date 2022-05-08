@@ -11,26 +11,12 @@
     text-align: justify;
 }
 
+.menu-button:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
 
 .bi.bi-pen, .bi.bi-bullseye, .bi.bi-credit-card, .bi.bi-clipboard-check, .bi.bi-piggy-bank, .bi.bi-truck {
     font-size: 5rem;
-    color: #053BC0;
-}
-
-.footer {
-    background-color: #053BC0;
-}
-
-.btn.btn-primary.btn-circle {
-    border-radius: 50%;
-    color: #FFFFFF;
-    background: #053BC0;
-}
-
-.tunido-title-footer {
-    color: #F52564;
-}
-
-.app-badge {
-    height: 50px;
+    color: cornflowerblue;
 }
