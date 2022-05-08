@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Bootstrap icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <title>Home | Tunido</title>
+    <title>Tunido</title>
+    <!--Tunido logo-->
+    <link rel="icon" href="assets/img/tunido_logo.ico" type="image/x-icon">
 </head>
 
 <body id="page-top">
@@ -17,11 +20,11 @@
 <!--Navbar-->
 <nav class="navbar navbar-expand-lg navbar-light shadow-sm" id="mainNav">
     <div class="container px-5">
-        <a class="navbar-brand fw-bold" href="#page-top">
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="#page-top">
             <img src="assets/img/tunido_logo.png" width="50" height="50" class="d-inline-block align-center" alt="">
-            TUNIDO
+            <h4>TUNIDO</h4>
         </a>
-        <button class="navbar-toggler border-0 menu-button" type="button" data-bs-toggle="collapse"
+        <button class="navbar-toggler border-0 shadow-sm" type="button" data-bs-toggle="collapse"
                 data-bs-target="#homeMenu"
                 aria-controls="homeMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,8 +46,8 @@
     <div class="container px-5 py-5">
         <div class="row align-items-center">
             <div class="col-md-6 col-sm-8">
-                <h1 class="display-1 lh-1"> Mejores lugares y personas</h1>
-                <p class="my-4">
+                <h1 class="display-2 lh-1"> Mejores lugares y personas</h1>
+                <p class="my-4 fw-light">
                     Descubre la nueva forma de encontrar casa o departamento para vivir, local para tu negocio o los
                     mejores inquilinos para tu propiedad
                 </p>
@@ -65,10 +68,10 @@
         </div>
         <div class="row justify-content-center text-center">
             <div class="col-lg-3 col-sm-12 my-2 mx-5">
-                <div class="card h-100 px-2 py-3 shadow-lg">
+                <div class="card h-100 px-3 py-3 shadow-lg">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Arrendar sin complicaciones</h5>
-                        <p class="card-text lh-sm info-card">
+                        <p class="card-text lh-sm fw-light info-card">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis
                             dolorum eius ipsam laudantium molestiae nulla, quia similique soluta. A assumenda cupiditate
                             deserunt harum ipsa nam nostrum odio suscipit! Quidem!
@@ -77,10 +80,10 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-12 my-2 mx-5">
-                <div class="card h-100 px-2 py-3 shadow-lg">
+                <div class="card h-100 px-3 py-3 shadow-lg">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Encontrar los mejores inquilinos o arrendadores</h5>
-                        <p class="card-text lh-sm info-card">
+                        <p class="card-text lh-sm fw-light info-card">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at beatae
                             commodi culpa delectus distinctio ducimus earum hic inventore iure laudantium magni, neque
                             numquam quos, ratione sed sint ullam voluptates.
@@ -89,10 +92,10 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-12 my-2 mx-5">
-                <div class="card h-100 px-2 py-3 shadow-lg">
+                <div class="card h-100 px-3 py-3 shadow-lg">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Adminsitrar todas tus propiedades</h5>
-                        <p class="card-text lh-sm info-card">
+                        <p class="card-text lh-sm fw-light info-card">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at beatae
                             commodi culpa delectus distinctio ducimus earum hic inventore iure laudantium magni, neque
                             numquam quos, ratione sed sint ullam voluptates.
@@ -104,9 +107,9 @@
     </div>
 </aside>
 <!--features-->
-<section class="py-4" id="features">
+<section class="py-5" id="features">
     <div class="container px-5">
-        <div class="row justify-content-center my-4">
+        <div class="row justify-content-center mb-3 mt-2">
             <div class="col-sm-12 text-center">
                 <h2 class="display-6"> Soluciones simples a problemas complejos... </h2>
             </div>
@@ -115,14 +118,14 @@
             <div class="col-sm-6 col-lg-4 text-center my-3">
                 <i class="bi bi-pen"></i>
                 <h3>Firma online</h3>
-                <p class="mb-0">
+                <p class="mb-0 fw-light">
                     Realiza toda la documentación necesaria 100% digital y seguro
                 </p>
             </div>
             <div class="col-sm-6 col-lg-4 text-center my-3">
                 <i class="bi bi-bullseye"></i>
                 <h3>TuScore</h3>
-                <p class="mb-0">
+                <p class="mb-0 fw-light">
                     Compara tanto inquilinos como arrendadores con nuestro score basado en inteligencia artifical y
                     elige los mejores
                 </p>
@@ -130,34 +133,72 @@
             <div class="col-sm-6 col-lg-4 text-center my-3">
                 <i class="bi bi-credit-card"></i>
                 <h3>Paga rápido</h3>
-                <p class="mb-0">
+                <p class="mb-0 fw-light">
                     Paga o cobra tu renta con varias opciones de pago
                 </p>
             </div>
             <div class="col-sm-6 col-lg-4 text-center my-3">
                 <i class="bi bi-clipboard-check"></i>
                 <h3>Inventario digital</h3>
-                <p class="mb-0">
+                <p class="mb-0 fw-light">
                     Crea el inventario de tu propiedad y mantenlo actualizado
                 </p>
             </div>
             <div class="col-sm-6 col-lg-4 text-center my-3">
                 <i class="bi bi-truck"></i>
                 <h3>Mudanza</h3>
-                <p class="mb-0">
+                <p class="mb-0 fw-light">
                     Elige la mejor empresa que se acomode a tus necesidades para el día de tu mudanza
                 </p>
             </div>
             <div class="col-sm-6 col-lg-4 text-center my-3">
                 <i class="bi bi-piggy-bank"></i>
                 <h3>TuRent</h3>
-                <p class="mb-0">
+                <p class="mb-0 fw-light">
                     Te ayudamos a calcular el mejor valor para rentar tu propiedad
                 </p>
             </div>
         </div>
     </div>
 </section>
+<!--footer-->
+<footer class="py-5 footer">
+    <div class="container px-5">
+        <div class="row">
+            <div class="col-lg-5 col-md-6 mb-5">
+                <p class="fs-3 fw-bolder text-white pb-2"> Descarga la app </p>
+                <div class="col-12 d-flex align-items-center mt-4 mb-3">
+                    <img src="assets/img/tunido_logo.png" width="50" height="50" class="d-inline-block align-center"
+                         alt="">
+                    <h3 class="mx-1 tunido-title-footer">TUNIDO</h3>
+                </div>
+                <a class="my-4" href="https://play.google.com/">
+                    <img src="./assets/img/google-play-badge.svg" class="d-inline-block align-center app-badge" alt=""/>
+                </a>
+                <a class="my-4" href="https://www.apple.com/la/app-store/">
+                    <img src="./assets/img/app-store-badge.svg" class="d-inline-block align-center app-badge" alt=""/>
+                </a>
+            </div>
+            <div class="col-lg-5 col-md-6 mb-5">
+                <p class="fs-3 fw-bolder text-white"> Menú </p>
+                <ul class="list-unstyled mb-0">
+                    <li class="my-2 fw-light">
+                        <a href="#how-works" class="text-decoration-none text-white">Como funciona</a>
+                    </li>
+                    <li class="my-2 fw-light">
+                        <a href="#features" class="text-decoration-none text-white">Características</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-5">
+                <p class="fs-3 fw-bolder text-white mb-3"> Contáctanos </p>
+                <a class="btn btn-primary btn-circle shadow-sm m-0" href="https://www.linkedin.com/">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
